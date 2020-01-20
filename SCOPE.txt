@@ -1,0 +1,19 @@
+Brange is a Yelp-like clone. There are four parts to this project:
+
+1) Creating Static Components
+2) Passing Information to Components
+3) Setting the State of the Brange Components
+4) Interacting with the Yelp API
+
+Brange is composed of four different components (./src/components/) interacting 
+with each other:
+<Business />
+<BusinessList />
+<SearchBar />
+<App /> (created by default with create-react-app...)
+
+
+User Requirements:
+1) As a user, I should be able to search for restaurants
+2) As a user, I should be able to view a list of restaurants returned by the Yelp API
+3) As a user, I should be able to sort through restaurants using a filter
