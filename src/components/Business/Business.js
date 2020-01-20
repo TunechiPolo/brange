@@ -1,7 +1,10 @@
-// The <Business /> Component represents how a business will be formatted and styled. It will update dynamically using the Yelp API.
-
 import React from 'react';
 import './Business.css'; // Imports the Business.css stylesheet from the Component > Business directory.
+
+/* 
+ * The <Business /> Component represents how a business will be formatted and styled. It will update dynamically using the Yelp API.
+*/
+
 
 const business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',

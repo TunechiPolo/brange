@@ -1,5 +1,6 @@
-Brange is a Yelp-like clone. There are four parts to this project:
+Brange is a Yelp-like clone. 
 
+There are four parts to this project:
 1) Creating Static Components
 2) Passing Information to Components
 3) Setting the State of the Brange Components
@@ -7,10 +8,11 @@ Brange is a Yelp-like clone. There are four parts to this project:
 
 Brange is composed of four different components (./src/components/) interacting 
 with each other:
-<Business />
-<BusinessList />
-<SearchBar />
-<App /> (created by default with create-react-app...)
+<Business />          - Simulates a single business.
+<BusinessList />      - Simulates a list of single businesses.
+<SearchBar />         - Searches for businesses.
+<App />               - Created by default with create-react-app. Renders a 
+		        SearchBar component and a BusinessList component.
 
 
 User Requirements:
