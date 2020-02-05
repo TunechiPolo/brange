@@ -22,11 +22,15 @@ const business = {
 const businesses = [business, business, business, business, business, business]; // creates a list of businesses using an array. other option is to repeat components in BusinessList.js.
 
 class App extends React.Component {
+  searchYelp(term, location, sortBy) {
+    console.log(`Searching Yelp with ${term}, ${location}, and ${sortBy}`);
+  }
+  
   render() {
     return (
       <div className="App">
         <h1>brange</h1>
-        <SearchBar />
+        <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={businesses} /> 
       </div>
     )
