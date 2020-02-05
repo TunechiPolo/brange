@@ -12,6 +12,7 @@
  class SearchBar extends React.Component {
     constructor(props) {
       super(props);
+      
       this.state = {
         term: '',
         location: '',
@@ -64,9 +65,9 @@
              // .map() iterates through the accessed keys.
              // Passed in a callback function to the .map() method as an argument. 1 parameter 'sortByOption' and uses arrow function syntax.
              let sortByOptionValue = this.sortByOptions[sortByOption]; // Stores object values in a variable.
-                return <li key={sortByOptionValue} 
+                return (<li key={sortByOptionValue} 
                   className={this.getSortByClass(sortByOptionValue)}
-                  onClick={this.handleSortByChange.bind(this.sortByOptionValue)}>{sortByOption}</li>
+                  onClick={this.handleSortByChange.bind(this, sortByOptionValue)}>{sortByOption}</li>);
          }); 
      }
      render() {
