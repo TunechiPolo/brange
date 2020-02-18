@@ -1,0 +1,12 @@
+Features to add to Brange:
+
+- Make addresses clickable and have them open the address in Google Maps
+  in a new tab.
+- Make images clickable and have them open the business' website in a new
+  tab.
+- Clicking on a different sorting option automatically requeries the Yelp
+  API, rather than manually clicking "Let's Go" again.
+- Implement another sort (e.g. entering a distance/radius from a central
+  location).
+- Allowing user to search by pressing "Enter" on the keyboard.
+- Add autocompletion of addresses to the "Location" input.
